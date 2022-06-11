@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "asaworkspace53nsiqb"
+		},
+		"adb_ls_accessToken": {
+			"value": ""
+		},
+		"adls_conn_feature_branch_accountKey": {
+			"value": ""
+		},
+		"asacosmosdb01_connectionString": {
+			"value": ""
+		},
+		"asacosmosdb53nsiqb_connectionString": {
+			"value": ""
+		},
+		"asadatalake53nsiqb_accountKey": {
+			"value": ""
+		},
+		"asastore53nsiqb_connectionString": {
+			"value": ""
+		},
+		"asaworkspace53nsiqb-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_highperf_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_import01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_workload01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_workload02_connectionString": {
+			"value": ""
+		},
+		"adls_conn_feature_branch_properties_typeProperties_url": {
+			"value": "https://asadatalake53nsiqb.dfs.core.windows.net"
+		},
+		"asadatalake53nsiqb_properties_typeProperties_url": {
+			"value": "https://asadatalake53nsiqb.dfs.core.windows.net"
+		},
+		"asakeyvault53nsiqb_properties_typeProperties_baseUrl": {
+			"value": "https://asakeyvault53nsiqb.vault.azure.net/"
+		},
+		"asaworkspace53nsiqb-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://asadatalake53nsiqb.dfs.core.windows.net"
+		}
+	}
+}
